@@ -56,7 +56,6 @@
 .container-first{
     display: flex;
     gap: 40px;
-    width: 865px;
     height:100px;
     border: 1px solid black;
     padding: 40px;
@@ -75,7 +74,7 @@
     border: 1px solid black;
 }
 .item-second{
-    width: 650px;
+    flex:1;
     height: 100px;
     border: 1px solid black;
 }
