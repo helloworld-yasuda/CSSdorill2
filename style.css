@@ -14,31 +14,31 @@
     background-color: lightblue;
 }
 
-.container#between{
+.between{
     justify-content: space-between;
 }
 
-.container#center{
+.center{
     justify-content: center;
 }
 
-.container#around{
+.left{
     justify-content:flex-start;
 }
 
-.container#right{
+.right{
     justify-content: flex-end;
 }
 
-.container#top{
+.top{
     align-items: flex-start;
 }
 
-.container#bottom{
+.bottom{
     align-items: flex-end;
 }
 
-.container#vertical-center{
+.vertical-center{
     align-items: center;
 }
 
