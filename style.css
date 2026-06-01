@@ -45,9 +45,9 @@
 .container-layout{
     border: 1px solid black;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
     width: 950px;
-    height: 750px;
     margin: 30px;
     gap: 40px;
     padding: 40px;
@@ -66,7 +66,6 @@
     display: flex;
     align-items: center;
     width: 950px;
-    height: 550px;
     gap: 40px;
 }
 
@@ -93,8 +92,6 @@
 
 .item-fourth{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     width: 600px;
     height: 400px;
     gap: 40px;
@@ -102,27 +99,32 @@
     border: 1px solid black;
 }
 
+.fourth-second{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    gap:40px;
+}
+
 .item-seventh{
     width: 200px;
-    height: 385px;
+    flex:1;
     border: 1px solid black;
 }
 
 .item-eighth{
     width: 280px;
-    height: 100px;
+    flex:1;
     border: 1px solid black;
 }
 
 .item-fifth{
-    width: 200px;
-    height: 100px;
+    height:106px;
     border: 1px solid black;
 }
 
 .item-sixth{
-    width: 200px;
-    height: 450px;
+    flex:1;
     border: 1px solid black;
 }
 
